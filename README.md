@@ -1,2 +1,3 @@
-# bootcamp-tqi-kotlin
- Bootcamp TQI Kotlin - Backend Developer - DIO
+# Bootcamp TQI Kotlin - Backend Developer - DIO
+ 
+ Nesse diretório irei hospedar os arquivos do bootcamp
