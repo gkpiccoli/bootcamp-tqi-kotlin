@@ -17,4 +17,6 @@ Comandos docker:
 - docker exec -it "ID" /bin/bash
 - docker rm "ID" !remove o container - iniciais
 - docker images !lista as imgs
+- docker rmi img !remove a imagem
+- docker run -dti "nome da imagem"
  
