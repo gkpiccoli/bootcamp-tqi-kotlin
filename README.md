@@ -12,7 +12,7 @@
 
 Comandos docker:
 
-docker ps  !lista os containeres ativos
-docker ps -a !lista o historico dos containeres
-docker exec -it "ID" /bin/bash
+- docker ps  !lista os containeres ativos
+- docker ps -a !lista o historico dos containeres
+- docker exec -it "ID" /bin/bash
  
