@@ -15,4 +15,6 @@ Comandos docker:
 - docker ps  !lista os containeres ativos
 - docker ps -a !lista o historico dos containeres
 - docker exec -it "ID" /bin/bash
+- docker rm "ID" !remove o container - iniciais
+- docker images !lista as imgs
  
