@@ -7,3 +7,12 @@
 - [x] Configuração do SSH
 - [x] Instalação Docker
 - [x] Instalação Conteiner
+
+
+
+Comandos docker:
+
+docker ps  !lista os containeres ativos
+docker ps -a !lista o historico dos containeres
+docker exec -it "ID" /bin/bash
+ 
