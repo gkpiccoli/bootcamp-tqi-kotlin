@@ -20,5 +20,7 @@ Comandos docker:
 - docker rmi img !remove a imagem
 - docker run -dti "nome da imagem"
 - docker run -dti --name Ubuntu-A ubuntu
+- docker exec Ubuntu-A mkdir /destino (não preciso acessar a imagem pra fazer uma operação nela)
+
 
  
