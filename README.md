@@ -24,5 +24,8 @@ Comandos docker:
 - docker cp MeuArquivo.txt Ubuntu-A:/destino (colo o arquivo no destino sem precisar acessar ele de fato)
 - docker cp Ubuntu-A:/destino/Meuzip.zip ZipCopia.zip (faço uma copia c outro nome)
 
+Iniciando um container MySQL via docker docker run -e MYSQL_ROOT_PASSWORD=senha123 --name mysql-A -d -p 3306:3306 mysql
+
+
 
  
