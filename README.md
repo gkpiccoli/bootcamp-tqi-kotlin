@@ -33,6 +33,10 @@ Iniciando um container MySQL via docker:
 - mysql> use aula;
 - mysql> select * from alunos;
 
+Como salvar os arquivos Mounts/Destinations no Host que está hospedando os containers:
+- docker run -e MYSQL_ROOT_PASSWORD=senha --name mysql-A -d -p 3306:3306 --volume=/data/mysql-A:var/lib/mysql mysql (primeiro caninho host/ segundo local dentro do container)
+
+
 
 
 
