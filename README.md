@@ -22,6 +22,7 @@ Comandos docker:
 - docker run -dti --name Ubuntu-A ubuntu
 - docker exec Ubuntu-A mkdir /destino (não preciso acessar a imagem pra fazer uma operação nela)
 - docker cp MeuArquivo.txt Ubuntu-A:/destino (colo o arquivo no destino sem precisar acessar ele de fato)
+- docker cp Ubuntu-A:/destino/Meuzip.zip ZipCopia.zip (faço uma copia c outro nome)
 
 
  
