@@ -28,6 +28,10 @@ Iniciando um container MySQL via docker:
 - docker run -e MYSQL_ROOT_PASSWORD=senha123 --name mysql-A -d -p 3306:3306 mysql
 - docker exec -it mysql-A bash
 - mysql -u root -p --protocol=tcp - Acesso o banco de dados pelo terminal
+- CREATE DATABASE exemplo1;
+- mysql> show databases;
+- mysql> use aula;
+- mysql> select * from alunos;
 
 
 
