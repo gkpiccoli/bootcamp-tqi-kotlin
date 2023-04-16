@@ -11,7 +11,8 @@
 Comandos Ubuntu server:
 - sudo passwd root
 - su root
--apt-get update && apt-get upgrade 
+- apt-get update && apt-get upgrade 
+- /etc/ssh/sshd_config -- PermitRootLogin without-password >> PermitRootLogin yes
 
 Comandos docker:
 
