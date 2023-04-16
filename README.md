@@ -8,7 +8,10 @@
 - [x] Instalação Docker
 - [x] Instalação Conteiner
 
-
+Comandos Ubuntu server:
+- sudo passwd root
+- su root
+-apt-get update && apt-get upgrade 
 
 Comandos docker:
 
