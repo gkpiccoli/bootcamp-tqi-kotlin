@@ -13,6 +13,7 @@ Comandos Ubuntu server:
 - su root
 - apt-get update && apt-get upgrade 
 - /etc/ssh/sshd_config -- PermitRootLogin without-password >> PermitRootLogin yes
+- sudo service ssh restart
 
 Comandos docker:
 
